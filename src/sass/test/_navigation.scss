@@ -1,0 +1,146 @@
+nav {
+  max-width: 100vw;
+  min-height: 100vh;
+  padding: 15px;
+  background-image: url(/src/images/cementery.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  div.baner {
+    margin-bottom: 10px;
+    height: 250px;
+    background-image: url(/src/images/baner1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    animation: baner 7s linear infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 1;
+    ul {
+      width: 1000px;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      li {
+        text-decoration: none;
+        padding: 10px;
+        cursor: pointer;
+        transition: 0.2s;
+        a {
+          font-size: 2rem;
+          color: #dce7ef;
+          letter-spacing: 2px;
+          text-decoration: none;
+          text-shadow: 0px 0px 2px #ccfafa;
+        }
+        &:hover a {
+          color: #71f5f5;
+          text-shadow: 0px 0px 3px #ccfafa;
+        }
+      }
+      li.list__one {
+        margin-bottom: 75px;
+        margin-left: 75px;
+      }
+      li.list__second {
+        margin-bottom: 25px;
+        margin-right: 73px;
+      }
+      li.list__three {
+        margin-bottom: 25px;
+      }
+      li.list__four {
+        margin-bottom: 75px;
+        margin-right: 75px;
+      }
+    }
+    ul.start {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+      li {
+        padding: 10px 55px;
+        a {
+          font-size: 2rem;
+          font-weight: bold;
+          color: #eccd6d;
+          text-shadow: 0px 0px 5px black;
+          font-family: "Livvic", sans-serif;
+        }
+        &:hover a {
+          color: #71f5f5;
+        }
+      }
+    }
+  }
+  @media (min-width: 1600px) {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+}
+.scroll {
+  padding: 20px 70px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 50px;
+  width: 70%;
+  background-color: rgba($color: #000000, $alpha: 0.7);
+  box-shadow: 0px 0px 20px #ccfafa;
+  margin-bottom: 20px;
+  z-index: 1;
+  p {
+    color: #dce7ef;
+    text-shadow: 0px 0px 2px #ccfafa;
+    font-size: 2.7rem;
+    letter-spacing: 3px;
+    margin: 20px 0;
+  }
+}
+div.start {
+  align-items: flex-start;
+  p.welcome {
+    margin: 20px 0;
+    align-self: center;
+    font-size: 2.7rem;
+  }
+}
+div.end {
+  p {
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+  p.cytat {
+    margin: 100px 0;
+  }
+  p.end {
+    align-self: flex-end;
+    margin-top: 100px;
+  }
+}
+@keyframes baner {
+  0% {
+    background-image: url(/src/images/baner1.png);
+  }
+  30% {
+    background-image: url(/src/images/baner2.png);
+  }
+  70% {
+    background-image: url(/src/images/baner2.png);
+  }
+  100% {
+    background-image: url(/src/images/baner1.png);
+  }
+}
