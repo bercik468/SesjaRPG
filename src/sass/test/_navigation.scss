@@ -14,7 +14,7 @@ nav {
   div.baner {
     margin-bottom: 10px;
     height: 250px;
-    background-image: url(/src/images/baner1.png);
+    background-image: url(../images/baner1.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -132,15 +132,15 @@ div.end {
 }
 @keyframes baner {
   0% {
-    background-image: url(/src/images/baner1.png);
+    background-image: url(../images/baner1.png);
   }
   30% {
-    background-image: url(/src/images/baner2.png);
+    background-image: url(../images/baner2.png);
   }
   70% {
-    background-image: url(/src/images/baner2.png);
+    background-image: url(../images/baner2.png);
   }
   100% {
-    background-image: url(/src/images/baner1.png);
+    background-image: url(../images/baner1.png);
   }
 }

@@ -582,7 +582,7 @@ class Start8 extends React.Component {
 
         <p className="end">Piotr Fronczewski</p>
         <embed
-          src="/src/audio/Fronczewski.mp3"
+          src="../audio/Fronczewski.mp3"
           width="0"
           height="0"
           border="0"
@@ -674,14 +674,14 @@ class Router extends React.Component {
         <nav>
           <div className="rain"></div>
           <embed
-            src="/src/audio/a.mp3"
+            src="../audio/a.mp3"
             width="0"
             height="0"
             border="0"
             volume="1"
           ></embed>
           <embed
-            src="/src/audio/b.mp3"
+            src="../audio/b.mp3"
             width="0"
             height="0"
             border="0"
